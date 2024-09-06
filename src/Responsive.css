@@ -1,0 +1,32 @@
+@media (max-width:768px){
+
+    /* Header 1  */
+
+    .Hero_Text {
+      font-size: 67px;
+    }
+}
+
+
+
+
+@media (max-width:425px){
+
+    /* Header 1  */
+    
+    .Hero_Text {
+        word-spacing: 3px;
+        font-size: 60px;
+    }
+}
+
+
+@media (max-width:320px){
+
+    /* Header 1  */
+    
+    .Hero_Text {
+        word-spacing: 3px;
+        font-size:55px;
+    }
+}

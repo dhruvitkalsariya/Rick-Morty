@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+*{
+  list-style: none !important;
+  text-decoration: none !important;
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-size: 18px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*  All Anchor Tag  */
+a{
+  color:black !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover{
+  color: #ff9800 !important;
 }
 
-.App-link {
-  color: #61dafb;
+/*  Selection  */
+
+::selection {
+  color: #ff9800;
+  background: rgb(32, 35, 41);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*  Header  */
+
+/*  Heart and Support US Button  */
+
+.Button{
+  border:1px solid #ff9800;
+  background-color: transparent;
 }
+
+.Button:hover , .Heart{
+  background-color: #ff9800;
+  color:#FFF !important;
+}
+
+
+/* Heroname Section */
+
+#Heroname{
+  height: 45vh;
+}
+
+.Hero_Text{
+  font-weight:900;
+  font-size: 100px;
+}
+
+/* Character Card Section */
+
+#Character{
+  background-color: #272b33;
+}
+
+#Character_Card{
+  background-color: rgb(60, 62, 68);
+}
+
+/*  Gray Test */
+.gray{
+  color: #9e9e9e !important;
+  font-weight: 500;
+}
+
+/* Alive-Dead And Type */
+
+#red,#green,#gray,#green2{
+  position: relative;
+  margin-left:20px;
+}
+
+#green::after{
+  background-color: green !important;
+}
+
+#gray::after{
+  background-color: #9e9e9e !important;
+}
+
+#red::after, #green::after, #gray::after,#green2::after {
+  content: "";
+  left: -20px;
+  position: absolute;
+  border-radius: 50%;
+  background: red;
+  height: 10px;
+  width: 10px;
+  line-height: 20px;
+  margin-top: 9px;
+}
+
+/* Footer */
+
+#green2::after {
+  background-color: green;
+  top: 3px;
+  left: 135px;
+}
+
+.line{
+  border-bottom:2px solid #ff9800;
+}
+
+.line:hover{
+  border-color: transparent;
+}
+
+/* Support Us Section */
+
+.fw-800{
+  font-weight: 800 !important;
+  color: #000c !important;
+}
+
+
