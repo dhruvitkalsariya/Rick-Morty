@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPenNib } from "react-icons/fa";
 
 //  custom component
 import { Container } from 'react-bootstrap'
@@ -12,7 +13,7 @@ const Edit = () => {
         <>
             <Container fluid className=' py-3  d-flex border-top justify-content-end'>
                 <div className="mx-4 fs-6">
-                    <Link to="/" >edit this page</Link>
+                    <Link to="/" > <FaPenNib className='mx-2'/>edit this page</Link>
                 </div>
             </Container>
         </>
